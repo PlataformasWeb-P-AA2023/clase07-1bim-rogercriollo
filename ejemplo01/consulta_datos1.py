@@ -24,6 +24,8 @@ clubs = session.query(Club).all()
 # Se recorre la lista a través de un ciclo
 # repetitivo for en python
 print("Presentación de Clubs")
+
+
 for s in clubs:
     print("%s" % (s))
     print("---------")

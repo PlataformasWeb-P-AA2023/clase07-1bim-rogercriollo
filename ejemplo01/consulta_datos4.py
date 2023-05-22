@@ -66,10 +66,11 @@ for registro in registros:
     # posición 0 el club
     # posición 1 el jugador 
     # que cumplen con la condición
-    print(registro[0]) # El nombre del club
-    print(registro[1]) # El número del dorsal del jugador
+    print(registro[0]) # El club
+    print(registro[1]) # El jugador
 
-
+    
+    print("---------")
 
 
 
